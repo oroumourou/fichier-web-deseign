@@ -1,0 +1,310 @@
+
+.text{
+    height: 170px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 255, 0.511);
+}
+
+.text h2{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    bottom: 175px;
+}
+
+.text img{
+    position: relative;
+    height:100px;
+    width:100px;
+    left: 93%;
+    border-radius: 100px;
+    bottom: 65px;
+    
+}
+
+.bar{
+    position: relative;
+    height: 4px;
+    width: 350px;
+    background-color: rgb(57, 57, 60);
+    border-radius: 50px;
+    bottom: 123px;
+    left: 585px;
+}
+
+.text h3{
+    bottom: 630px;
+    left: 360px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    position: absolute;
+}
+
+.bar1{
+    position: absolute;
+    height: 4px;
+    width: 510px;
+    background-color: rgb(57, 57, 60);
+    border-radius: 50px;
+    bottom: 641px;
+    left: 525px;
+}
+
+.text h4{
+    position: absolute;
+    left: 630px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    bottom: 590px;
+    font-size:larger;
+}
+
+.bar2{
+    position: absolute;
+    height: 4px;
+    width: 400px;
+    background-color: rgb(57, 57, 60);
+    border-radius: 50px;
+    bottom: 610px;
+    left: 578px;
+}
+
+.text  h5{
+    position: absolute;
+    left: 470px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    bottom: 552px;
+    font-size:larger;
+}
+
+.cv{
+    bottom: 50px;
+    transition: 3s;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: aqua;
+    border-radius: 8px;
+    box-shadow: 5px 4px 2px rgba(0, 162, 255, 0.553);
+}
+
+.cv p{
+    bottom: 9px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-ser;
+}
+
+.cv:hover{
+    transform: scale(0.95) ;transition: 2s;
+    box-shadow: 5px 4px 2px rgba(0, 162, 255, 0.553);
+}
+
+.game{
+    position: relative;
+    height: 180px;
+    width: 180px;
+    border: none;
+    left: 48%;
+    bottom: 18px;
+    background-image: url("me.jpg");
+    background-size: cover;
+    transition: 3s;
+}
+
+.game:hover{
+    transition: 2s;
+    border: none;
+    border-radius: 35px;
+    background-image: url("tiger.jpg" );
+    height: 180px;
+    width: 180px;
+}
+
+.game:active{
+    transition: 2s;
+    border: none;
+    border-radius: 20px;
+    background-image: url("me.jpg");
+    height: 180px;
+    width: 180px;
+}
+
+.cursus{
+    position: relative;
+    left: 180px;
+    height: 200px;
+    width: 350px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    top: 95px;
+    box-shadow: 0px 0px 6px  rgb(68, 38, 217);
+}
+
+.cursus h2{
+    color: azure;
+}
+
+.cursus .tex{
+    background-color: rgb(64, 26, 204);
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    left: 130px;
+}
+
+.cursus h3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.cursus h3:hover{
+    transition: 2s;
+    width: 350px;
+    transform: translate(1px,4px);
+    background-color: rgb(166, 162, 157);
+}
+
+.present{
+    position: relative;
+    left: 38%;
+    border: 2px solid blue;
+    height: 200px;
+    width: 700px;
+    border-radius: 8px;
+    bottom: 110px;
+    box-shadow: 0px 0px 6px  rgb(68, 38, 217);
+}
+
+.present .text1 h2{
+    color: azure;
+}
+
+.present .tex1{
+    background-color: rgb(64, 26, 204);
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    left: 310px;
+}
+
+.present h3{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 700px;
+    transition: 2s;
+}
+
+.present h3:hover{
+    background-color: rgb(197, 192, 187);
+    
+}
+
+.comp{
+    position: relative;
+    left: 399px;
+    height: 300px;
+    width: 750px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    bottom: 10px;
+    box-shadow: 0px 0px 6px  rgb(68, 38, 217);
+}
+
+.comp h2{
+    background-color: rgb(64, 26, 204);
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 35px;
+    display: flex;
+    align-items: center;
+    left: 310px;
+}
+
+.comp h3{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: 2s;
+}
+
+.comp h3:hover{
+    transition: 2s;
+    background-color: rgb(197, 192, 187);
+}
+
+.voir a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: larger;
+    margin-top: 2px;
+}
+
+.voir button{
+    background-color: rgb(55, 234, 126);
+    border-radius: 8px;
+    color: black;
+    border: none;
+    position: relative;
+    bottom: 170px;
+    left: 82%;
+    animation: bounce 1s infinite;
+}
+
+.voir button svg{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2px;
+
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(-20px);
+    }
+}
