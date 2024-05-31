@@ -1,0 +1,25 @@
+.table-style{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px rgb(0, 0, 0,0.15);
+    cursor: pointer;
+    margin: 45px auto;
+    border:2px solid rgb(1, 1, 17);
+}
+tr,td{
+    padding: 15px 20px;
+    border: 1px solid #0f0505;
+}
+#rouge{
+    background-color: red;
+
+}
+#jaune{
+    background-color: yellow;
+}
+h4{
+    text-align: center;
+    margin-top: 55px;
+    text-decoration: underline;
+}
