@@ -1,0 +1,49 @@
+@media  screen and (max-width:1200px) {
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 7px;
+    background: linear-gradient(88deg,#2664e9,#2ad84a);
+    transition: 6s;
+}
+
+.box:hover{
+    box-shadow: 4px 4px 10px rgb(0,0,0);
+    transition: 1s;
+}
+h1{
+    text-align: center;
+}
+.input-box{
+    margin: 15px;
+}
+.input-box input{
+    text-align: center;
+    margin-left: 11%;
+    height: 30px;
+    width: 200px;
+}
+input{
+    border-radius: 15px;
+}
+body{
+    background-color:skyblue;
+}
+button{
+    margin-top: 12px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    transition: 2s;
+}
+button:active{
+    box-shadow: 3px 3px 8px rgb(71, 227, 110);
+    transition: 2s;
+    transform: scale(0.7);
+}
